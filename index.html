@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>MG Steak House | Churrascaria, Choperia e Drinks em Parauapebas</title>
+<meta name="description" content="MG Steak House, a primeira casa de carnes de Parauapebas desde 2018: carnes na brasa, acompanhamentos à vontade, drinks, choperia e música ao vivo. Nota 4,6 no Google. Reserve pelo WhatsApp.">
+<meta name="robots" content="noindex,nofollow"><!-- DEMONSTRACAO: remover ao publicar de verdade -->
+<meta name="theme-color" content="#0a0807">
+<link rel="icon" href="img/favicon.png">
+<link rel="preload" as="image" href="img/h1.webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"MG Steak House","servesCuisine":"Churrascaria","telephone":"+5594991392689","address":{"@type":"PostalAddress","streetAddress":"Av. Carajás, 388","addressLocality":"Parauapebas","addressRegion":"PA","postalCode":"68515-000","addressCountry":"BR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"1071"},"sameAs":["https://www.instagram.com/mgsteakhousepbs"]}</script>
+<style>
+:root{--bg:#0a0807;--bg2:#120e0b;--card:#17120f;--linha:#33281c;--txt:#f6efe4;--mut:#b8afa2;--or:#d8a657;--or2:#f0cf8e;--ink:#1a0c02;--tit:'Oswald',system-ui,sans-serif;--corpo:'Jost',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}
+body{font-family:var(--corpo);font-size:17px;line-height:1.6;color:var(--txt);background:var(--bg);overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.w{max-width:1180px;margin:0 auto;padding:0 22px}
+.eyebrow{font:600 13px/1 var(--corpo);letter-spacing:.24em;text-transform:uppercase;color:var(--or)}
+h1,h2,h3{font-family:var(--tit);font-weight:600;line-height:1.08;text-transform:uppercase;letter-spacing:1.5px}
+h2{font-size:clamp(34px,5.4vw,60px)}
+h2 em{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:600;text-transform:none;letter-spacing:0;color:var(--or2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;border-radius:999px;font:600 16.5px/1 var(--corpo);letter-spacing:.04em;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,border-color .25s,color .25s;touch-action:manipulation}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.btn-or{background:linear-gradient(120deg,#c8761f,#f0cf8e);color:var(--ink);box-shadow:0 10px 34px rgba(200,118,31,.3)}
+.btn-or:hover{box-shadow:0 14px 44px rgba(200,118,31,.5);transform:translateY(-2px)}
+.btn-line{border-color:rgba(244,239,232,.38);color:var(--txt)}
+.btn-line:hover{border-color:var(--or);color:var(--or)}
+.btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+.prog{position:fixed;left:0;top:0;height:3px;width:100%;z-index:60;background:linear-gradient(90deg,var(--or),var(--or2));transform:scaleX(0);transform-origin:0 50%}
+.topo{position:fixed;left:0;right:0;top:0;z-index:50;transition:background .35s,border-color .35s;border-bottom:1px solid transparent}
+.topo.on{background:rgba(10,8,7,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--linha)}
+.topo .w{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:14px}
+.marca{display:flex;align-items:center;gap:12px;text-decoration:none}
+.marca img{width:46px;height:46px;border-radius:50%;background:#0e0e0f;border:2px solid var(--or);object-fit:contain;padding:4px}
+.marca b{display:block;font:600 19px/1.05 var(--corpo);letter-spacing:.2em;text-transform:uppercase}
+.marca span{display:block;font:500 12.5px/1.2 var(--corpo);color:var(--or2);letter-spacing:.3em;text-transform:uppercase}
+.nav{display:flex;gap:28px}
+.nav a{font:500 15px/1 var(--corpo);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--mut);padding:12px 2px;transition:color .2s}
+.nav a:hover{color:var(--or)}
+.topo .btn{min-height:46px;padding:0 22px;font-size:15px}
+.burger{display:none;width:48px;height:48px;border-radius:12px;border:1px solid var(--linha);background:rgba(24,24,27,.7);align-items:center;justify-content:center}
+.burger svg{width:24px;height:24px;stroke:var(--txt);stroke-width:2;fill:none;stroke-linecap:round}
+.menu{display:none}
+@media(max-width:960px){.nav,.topo .btn.desk{display:none}.burger{display:inline-flex}
+ .menu.on{display:flex;flex-direction:column;position:fixed;inset:78px 0 0 0;z-index:49;background:rgba(10,8,7,.97);padding:24px 22px;gap:6px}
+ .menu a{font:500 22px/1 var(--corpo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:20px 4px;border-bottom:1px solid var(--linha)}
+ .menu .btn{margin-top:18px;border:0}}
+
+/* HERO */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:130px 0 70px;overflow:hidden;background:#0a0807}
+.hero .bg{position:absolute;inset:-4% 0;background:url(img/h1.webp) 70% 50%/cover no-repeat;will-change:transform}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,8,7,.55) 0%,rgba(10,8,7,.25) 35%,rgba(10,8,7,.88) 80%,var(--bg) 100%),linear-gradient(90deg,rgba(10,8,7,.7),rgba(10,8,7,0) 70%)}
+.hero .w{position:relative;z-index:2;width:100%}
+.hero h1{font-size:clamp(44px,7.2vw,98px);margin:18px 0 20px;max-width:14ch;font-weight:600}
+.hero h1 em{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:600;text-transform:none;letter-spacing:0;color:var(--or2)}
+.hero .l{max-width:50ch;color:#eadfcf;font-size:19px}
+.acoes{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.selos{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
+.selo{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 16px;border-radius:999px;background:rgba(24,24,27,.78);border:1px solid var(--linha);font-size:15px;font-weight:500;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.selo b{color:#ffc933;letter-spacing:2px}
+.rola{position:absolute;right:26px;bottom:40px;z-index:2;font:500 12.5px/1 var(--corpo);letter-spacing:.3em;text-transform:uppercase;color:var(--mut);writing-mode:vertical-rl}
+@media(max-width:700px){.rola{display:none}.hero{padding:112px 0 56px}.hero .l{font-size:17.5px}}
+
+/* FAIXA */
+.marq{overflow:hidden;border-block:1px solid var(--linha);background:var(--bg2);padding:18px 0}
+.marq .tr{display:flex;gap:44px;width:max-content;animation:marq 38s linear infinite}
+.marq span{font:500 22px/1 var(--tit);font-style:italic;color:var(--mut);white-space:nowrap;display:inline-flex;align-items:center;gap:44px}
+.marq span::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--or)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+section.s{padding:96px 0}
+@media(max-width:700px){section.s{padding:70px 0}}
+.cab{max-width:760px;margin-bottom:46px}
+.cab h2{margin:14px 0 14px}
+.cab p{color:var(--mut);font-size:18px}
+
+/* NUMEROS */
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.num{border:1px solid var(--linha);border-radius:20px;padding:26px 18px;background:var(--card);text-align:center}
+.num b{display:block;font:500 clamp(40px,5vw,60px)/1 var(--tit);color:var(--or)}
+.num span{display:block;margin-top:8px;color:var(--mut);font-size:15px}
+@media(max-width:700px){.nums{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* LINHAS */
+.linhas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.linha{position:relative;border-radius:26px;overflow:hidden;border:1px solid var(--linha);background:var(--card);display:flex;flex-direction:column;min-height:480px;transition:transform .35s,border-color .35s}
+.linha:hover{transform:translateY(-6px);border-color:var(--or)}
+.linha img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.linha:hover img{transform:scale(1.05)}
+.linha::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,8,7,.96) 0%,rgba(10,8,7,.55) 42%,rgba(10,8,7,0) 70%)}
+.linha .tx{position:relative;z-index:2;margin-top:auto;padding:26px}
+.linha h3{font-size:32px}
+.linha p{color:#e0dacf;font-size:16.5px;margin:6px 0 16px;max-width:36ch}
+@media(max-width:800px){.linhas{grid-template-columns:minmax(0,1fr)}.linha{min-height:420px}}
+
+/* SERVICOS */
+.servs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.sv{border:1px solid var(--linha);border-radius:20px;background:var(--card);padding:24px 20px;transition:border-color .3s,transform .3s}
+.sv:hover{border-color:var(--or);transform:translateY(-4px)}
+.sv svg{width:40px;height:40px;stroke:var(--or);stroke-width:1.6;fill:none;stroke-linecap:round;stroke-linejoin:round;margin-bottom:14px}
+.sv b{display:block;font:600 19px/1.2 var(--corpo);margin-bottom:4px}
+.sv span{color:var(--mut);font-size:15.5px}
+@media(max-width:960px){.servs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.servs{grid-template-columns:minmax(0,1fr)}}
+
+/* PROCESSO */
+.pass{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;counter-reset:p}
+.ps{position:relative;border:1px solid var(--linha);border-radius:22px;padding:30px 24px;background:linear-gradient(160deg,var(--card),#101012)}
+.ps::before{counter-increment:p;content:"0" counter(p);font:500 54px/1 var(--tit);color:var(--or);display:block;margin-bottom:12px}
+.ps b{display:block;font:600 21px/1.2 var(--corpo);margin-bottom:6px}
+.ps span{color:var(--mut)}
+@media(max-width:800px){.pass{grid-template-columns:minmax(0,1fr)}}
+
+/* OBRAS */
+.gal{columns:3;column-gap:14px}
+.gal button{display:block;width:100%;margin:0 0 14px;break-inside:avoid;border-radius:18px;overflow:hidden;border:1px solid var(--linha);background:var(--card);cursor:zoom-in;padding:0}
+.gal button img{width:100%;height:auto;transition:transform .6s}
+.gal button:hover img{transform:scale(1.05)}
+@media(max-width:900px){.gal{columns:2}}
+@media(max-width:480px){.gal{column-gap:10px}.gal button{margin-bottom:10px}}
+
+/* REELS */
+.ig{background:var(--bg2);border-block:1px solid var(--linha)}
+.reels{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;scrollbar-width:none}
+.reels::-webkit-scrollbar{display:none}
+.reel{flex:0 0 min(260px,66vw);scroll-snap-align:start;position:relative;aspect-ratio:9/16;border-radius:22px;overflow:hidden;border:1px solid var(--linha);text-decoration:none;background:#141416}
+.reel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.reel:hover img{transform:scale(1.05)}
+.reel::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,8,7,.9) 0%,rgba(10,8,7,0) 45%)}
+.play{position:absolute;z-index:2;top:50%;left:50%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:rgba(216,166,87,.95);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.play svg{width:26px;height:26px;fill:var(--ink);margin-left:3px}
+.reel .cap{position:absolute;z-index:2;left:14px;right:14px;bottom:14px;font-size:14.5px;font-weight:600;line-height:1.3}
+.seguir{margin-top:26px;display:inline-flex;align-items:center;gap:12px;min-height:56px;padding:0 30px;border-radius:999px;background:linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);color:#fff;font-weight:600;font-size:17px;text-decoration:none;transition:transform .25s}
+.seguir:hover{transform:translateY(-2px)}
+.seguir svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round}
+
+/* AVALIACOES */
+.av{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:26px;align-items:stretch}
+.goo{border:3px solid transparent;border-radius:28px;padding:34px 26px;text-align:center;background:linear-gradient(var(--card),var(--card)) padding-box,conic-gradient(#4285F4,#EA4335,#FBBC05,#34A853,#4285F4) border-box}
+.goo .n{font:500 84px/1 var(--tit)}
+.goo .st{color:#ffc933;font-size:28px;letter-spacing:4px}
+.goo p{color:var(--mut);margin:8px 0 22px}
+.goo .btn{background:#fff;color:#1f2a30;width:100%}
+.goo .btn svg{fill:currentColor;stroke:none}
+.deps{display:grid;gap:14px}
+.deps q{display:block;quotes:none;border:1px solid var(--linha);border-left:4px solid var(--or);border-radius:16px;padding:20px 22px;background:var(--card);font-size:18px;line-height:1.5}
+.deps q small{display:block;margin-top:8px;color:var(--mut);font-size:14.5px}
+@media(max-width:860px){.av{grid-template-columns:minmax(0,1fr)}}
+
+/* CONTATO */
+.ct{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:26px}
+.ct .info{border:1px solid var(--linha);border-radius:26px;padding:34px 28px;background:var(--card)}
+.ct .info h3{font-size:30px;margin-bottom:14px}
+.ct .info p{color:var(--mut);margin-bottom:6px}
+.ct .info b{color:var(--txt);font-weight:600}
+.ct .info .acoes{margin-top:24px}
+.mapa{border-radius:26px;overflow:hidden;border:1px solid var(--linha);min-height:380px;background:var(--card)}
+.mapa iframe{display:block;width:100%;height:100%;min-height:380px;border:0;filter:grayscale(.35) contrast(1.05)}
+@media(max-width:860px){.ct{grid-template-columns:minmax(0,1fr)}}
+
+/* CTA FINAL / RODAPE */
+.final{text-align:center;padding:110px 0;background:radial-gradient(60% 80% at 50% 0%,rgba(216,166,87,.22),transparent 70%),var(--bg2);border-top:1px solid var(--linha)}
+.final h2{max-width:18ch;margin:14px auto 20px}
+.final p{color:var(--mut);max-width:52ch;margin:0 auto 30px;font-size:18px}
+.final .acoes{justify-content:center}
+.site-igual{padding:30px 0;border-top:1px solid var(--linha);text-align:center}
+.site-igual a{display:inline-flex;align-items:center;gap:12px;padding:16px 26px;border-radius:18px;border:1px dashed rgba(230,189,79,.6);text-decoration:none;background:linear-gradient(135deg,#050506,#18181b);font-weight:600}
+.site-igual .zb{color:#e6bd4f}
+.rodape{padding:34px 0 40px;border-top:1px solid var(--linha);color:var(--mut);font-size:15px}
+.rodape .w{display:flex;flex-wrap:wrap;gap:14px 30px;justify-content:space-between;align-items:center}
+.rodape a{text-decoration:none}.rodape .zb{color:#e6bd4f;font-weight:600}
+.demo{text-align:center;font-size:13px;color:var(--mut);padding:0 22px 26px}
+
+/* WHATS FLUTUANTE */
+.zap{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:40;width:62px;height:62px;border-radius:50%;background:linear-gradient(120deg,#c8761f,#f0cf8e);display:grid;place-items:center;box-shadow:0 10px 30px rgba(200,118,31,.5);transition:transform .25s}
+.zap:hover{transform:scale(1.07)}
+.zap svg{width:30px;height:30px;stroke:var(--ink);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+/* LIGHTBOX */
+.lb{position:fixed;inset:0;z-index:80;background:rgba(5,5,6,.97);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-width:94vw;max-height:86svh;width:auto;height:auto;object-fit:contain;border-radius:8px}
+.lb button{position:absolute;width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.14);font-size:28px;color:#fff;display:grid;place-items:center;border:0;cursor:pointer}
+.lb .x{top:calc(14px + env(safe-area-inset-top));right:14px}.lb .pv{left:12px;top:50%;margin-top:-27px}.lb .nx{right:12px;top:50%;margin-top:-27px}
+.lb .c{position:absolute;bottom:calc(16px + env(safe-area-inset-bottom));left:0;right:0;text-align:center;color:var(--mut);font-size:14.5px}
+
+/* REVEAL */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}.hero .bg{transform:none!important}}
+
+.hero::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(10,8,7,.95) 0%,rgba(10,8,7,.78) 45%,rgba(10,8,7,.2) 100%)}
+@media(max-width:700px){.hero::before{background:linear-gradient(180deg,rgba(10,8,7,.72),rgba(10,8,7,.58))}}
+.cardap{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-top:30px}
+.cardap button{border-radius:14px;overflow:hidden;border:1px solid var(--linha);background:var(--card);transition:transform .25s,border-color .25s}
+.cardap button:hover{transform:translateY(-4px);border-color:var(--or)}
+.cardap img{display:block;width:100%;height:auto}
+.pratos{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:30px}
+.prato{display:flex;justify-content:space-between;gap:16px;align-items:baseline;background:var(--card);border:1px solid var(--linha);border-radius:16px;padding:16px 18px}
+.prato b{font-weight:600;font-size:17px}.prato small{display:block;color:var(--mut);font-size:14px;margin-top:3px}.prato i{font-style:normal;font-weight:700;color:var(--or2);white-space:nowrap}
+.res{max-width:560px;margin:30px auto 0;padding:24px 22px;border-radius:24px;background:var(--card);border:1px solid var(--linha)}
+.res label{display:block;font-size:14.5px;font-weight:600;margin:14px 0 6px}
+.res input,.res select{width:100%;min-height:52px;padding:10px 14px;border-radius:14px;border:1px solid var(--linha);background:var(--bg);color:var(--txt);font:inherit;font-size:16px}
+.res .lin{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.res button[type=submit]{width:100%;margin-top:20px;min-height:58px;border-radius:999px;font-weight:700;font-size:17px;color:var(--ink);background:linear-gradient(120deg,var(--or),var(--or2));display:flex;align-items:center;justify-content:center;gap:10px}
+.res button svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.res .dica{font-size:14px;color:var(--mut);margin-top:12px;text-align:center}
+.parc{display:flex;align-items:center;gap:18px;max-width:640px;margin:0 auto;padding:18px;border-radius:22px;background:var(--card);border:1px solid var(--linha);transition:transform .25s}
+.parc:hover{transform:translateY(-3px)}
+.parc img{flex:0 0 92px;width:92px;height:92px;border-radius:18px}
+.parc em{font-style:normal;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--or2)}
+.parc b{display:block;font:600 24px/1.1 var(--tit);text-transform:uppercase;letter-spacing:1px;margin:3px 0}
+.parc small{color:var(--mut);font-size:15px}
+.parc,.parc *{text-decoration:none}
+.hor{margin-top:14px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<header class="topo" id="topo">
+  <div class="w">
+    <a class="marca" href="#topo" aria-label="MG Steak House, início"><img src="img/logo-mark.png" alt="" width="46" height="46"><span><b>MG</b><span>Steak House</span></span></a>
+    <nav class="nav" aria-label="Principal"><a href="#experiencias">Experiências</a><a href="#cardapio">Cardápio</a><a href="#reserva">Reserva</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a></nav>
+    <a class="btn btn-or desk" href="#reserva"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Reservar mesa</a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<nav class="menu" id="menu" aria-label="Menu"><a href="#experiencias">Experiências</a><a href="#cardapio">Cardápio</a><a href="#reserva">Reserva</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a><a class="btn btn-or" href="#reserva">Reservar mesa</a></nav>
+
+<main>
+<section class="hero">
+  <div class="bg" id="herobg" role="img" aria-label="Prancha de carne grelhada com acompanhamentos"></div>
+  <div class="w">
+    <p class="eyebrow">Parauapebas · Pará · desde 2018</p>
+    <h1>A primeira casa de <em>carnes</em> de Parauapebas</h1>
+    <p class="l">Carnes na brasa escolhidas por você no freezer, acompanhamentos à vontade, drinks, choperia e música ao vivo.</p>
+    <div class="acoes">
+      <a class="btn btn-or" href="#reserva"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M8.8 8.6c.3 3.1 2.6 5.4 5.8 5.8l1.1-1.2-1.7-1-.8.6c-.8-.4-1.5-1.1-1.9-1.9l.6-.8-1-1.7z"/></svg>Reservar minha mesa</a>
+      <a class="btn btn-line" href="#cardapio">Ver cardápio</a>
+    </div>
+    <div class="selos"><span class="selo"><b aria-hidden="true">★★★★★</b>4,6 no Google · 1.071 avaliações</span><span class="selo">Aberto todos os dias</span><span class="selo">Sala VIP, 40 lugares</span></div>
+  </div>
+  <span class="rola" aria-hidden="true">Role para conhecer</span>
+</section>
+
+<div class="marq" aria-hidden="true"><div class="tr">
+  <span>Picanha</span><span>Filé mignon</span><span>T-bone</span><span>Prime rib</span><span>Fraldinha</span><span>Maminha</span><span>Costela suína</span><span>Linguiça artesanal</span><span>Cupim</span><span>Drinks</span><span>Chopp</span>
+  <span>Picanha</span><span>Filé mignon</span><span>T-bone</span><span>Prime rib</span><span>Fraldinha</span><span>Maminha</span><span>Costela suína</span><span>Linguiça artesanal</span><span>Cupim</span><span>Drinks</span><span>Chopp</span>
+</div></div>
+
+<section class="s">
+  <div class="w">
+    <div class="nums">
+      <div class="num rv"><b data-n="4,6">0</b><span>nota no Google</span></div>
+      <div class="num rv d1"><b data-n="1071">0</b><span>avaliações de clientes</span></div>
+      <div class="num rv d2"><b data-n="40">0</b><span>lugares na Sala VIP</span></div>
+      <div class="num rv d3"><b data-n="7">0</b><span>dias de funcionamento por semana</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="experiencias" style="padding-top:20px">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Experiências</p><h2>O que você <em>encontra</em> no MG</h2><p>Carnes, drinks, ambiente e música. Toque em uma delas e fale direto com a casa.</p></div>
+    <div class="linhas">
+      <article class="linha rv"><img src="img/c-carnes.webp" width="1000" height="1000" alt="Corte grelhado na tábua com acompanhamentos" loading="lazy" style="object-position:50% 40%"><div class="tx"><h3>Carnes na brasa</h3><p>Você escolhe o corte no freezer, com o valor do kg etiquetado. Acompanhamentos à vontade.</p><a class="btn btn-or" data-wa="Olá! Vim pelo site do MG Steak House e quero reservar uma mesa para comer as carnes na brasa." href="#">Reservar mesa</a></div></article>
+      <article class="linha rv d1"><img src="img/c-drinks.webp" width="1000" height="1000" alt="Drinks coloridos no balcão" loading="lazy"><div class="tx"><h3>Drinks e choperia</h3><p>Aperol, Moscow Mule, caipirinhas, gins e chopp gelado, direto do bar.</p><a class="btn btn-or" data-wa="Olá! Vim pelo site do MG Steak House e quero reservar uma mesa para os drinks e a choperia." href="#">Reservar mesa</a></div></article>
+      <article class="linha rv"><img src="img/c-vip.webp" width="1000" height="1000" alt="Sala VIP com mesas de madeira" loading="lazy" style="object-position:50% 0%"><div class="tx"><h3>Sala VIP, 40 lugares</h3><p>Ambiente reservado para aniversários, confraternizações e grandes celebrações.</p><a class="btn btn-or" data-wa="Olá! Vim pelo site do MG Steak House e quero saber da Sala VIP de 40 lugares para uma comemoração." href="#">Reservar mesa</a></div></article>
+      <article class="linha rv d1"><img src="img/c-amb.webp" width="1000" height="1000" alt="Vista aérea do MG Steak House à noite" loading="lazy" style="object-position:50% 70%"><div class="tx"><h3>Ambiente e música ao vivo</h3><p>Área climatizada e área externa, com programação de música ao vivo.</p><a class="btn btn-or" data-wa="Olá! Vim pelo site do MG Steak House e quero conhecer o ambiente e a programação de música ao vivo." href="#">Reservar mesa</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="s" style="background:var(--bg2);border-block:1px solid var(--linha)">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Como funciona</p><h2>Do jeito <em>MG</em> de servir</h2></div>
+    <div class="pass">
+      <div class="ps rv"><b>Escolha seu corte</b><span>Você mesmo escolhe a carne no freezer expositor da casa.</span></div>
+      <div class="ps rv d1"><b>Valor por kg, na etiqueta</b><span>O preço de cada corte fica visível, sem surpresa na conta.</span></div>
+      <div class="ps rv d2"><b>Acompanhamentos à vontade</b><span>Mandioca, vinagrete, farofa crocante e molhos, gratuitos e com reposição.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="cardapio">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Cardápio</p><h2>Cortes, aperitivos e <em>drinks</em></h2><p>Alguns destaques do cardápio. Toque em uma página para ver o cardápio completo.</p></div>
+    <div class="pratos">
+      <div class="prato rv"><div><b>Aperol</b><small>Aperol, Sprite e espumante</small></div><i>R$ 35,00</i></div>
+      <div class="prato rv"><div><b>Moscow Mule</b><small>Vodka, gengibre, limão e espuma de gengibre</small></div><i>R$ 35,00</i></div>
+      <div class="prato rv"><div><b>Caipirinha tradicional</b><small>Cachaça, limão e açúcar</small></div><i>R$ 33,00</i></div>
+      <div class="prato rv"><div><b>Chopp</b><small>Gelado, na tulipa</small></div><i>R$ 14,99</i></div>
+      <div class="prato rv"><div><b>Batata especial</b><small>450g, cheddar e bacon</small></div><i>R$ 35,99</i></div>
+      <div class="prato rv"><div><b>Pastéis de queijo ou carne</b><small>6 unidades</small></div><i>R$ 35,99</i></div>
+      <div class="prato rv"><div><b>Tábua de frios da casa</b><small>600g, queijo, presunto, salaminho, ovo de codorna, lombo e azeitonas</small></div><i>R$ 49,99</i></div>
+      <div class="prato rv"><div><b>Espetinho de queijo coalho</b><small>1 unidade</small></div><i>R$ 10,99</i></div>
+    </div>
+    <div class="cardap" id="menu">
+      <button type="button" aria-label="Abrir página 1 do cardápio"><img src="img/menu1.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 1" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 2 do cardápio"><img src="img/menu2.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 2" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 3 do cardápio"><img src="img/menu3.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 3" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 4 do cardápio"><img src="img/menu4.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 4" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 5 do cardápio"><img src="img/menu5.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 5" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 6 do cardápio"><img src="img/menu6.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 6" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 7 do cardápio"><img src="img/menu7.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 7" loading="lazy"></button>
+      <button type="button" aria-label="Abrir página 8 do cardápio"><img src="img/menu8.webp" width="780" height="1213" alt="Cardápio do MG Steak House, página 8" loading="lazy"></button>
+    </div>
+    <p class="demo" style="margin-top:18px">Valores do cardápio atual, sujeitos a alteração. Os cortes de carne têm o valor do kg etiquetado no freezer da casa.</p>
+  </div>
+</section>
+
+<section class="s" id="reserva" style="background:var(--bg2);border-block:1px solid var(--linha)">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Reserva</p><h2>Reserve sua <em>mesa</em></h2><p>Preencha e envie pelo WhatsApp. A equipe confirma a sua reserva.</p></div>
+    <form class="res rv" id="fres" autocomplete="on">
+      <label for="rn">Seu nome</label><input id="rn" name="nome" type="text" autocomplete="name" required placeholder="Como podemos te chamar?">
+      <div class="lin"><div><label for="rd">Data</label><input id="rd" name="data" type="date" required></div>
+      <div><label for="rh">Horário</label><select id="rh" name="hora" required><option value="">Escolha</option><option>12:00</option><option>13:00</option><option>14:00</option><option>18:00</option><option>19:00</option><option>20:00</option><option>21:00</option><option>22:00</option></select></div></div>
+      <label for="rp">Quantas pessoas?</label><select id="rp" name="pessoas" required><option value="">Escolha</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>Mais de 20</option></select>
+      <label for="ro">Alguma observação? (opcional)</label><input id="ro" name="obs" type="text" placeholder="Aniversário, Sala VIP, cadeirinha...">
+      <button type="submit"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M8.8 8.6c.3 3.1 2.6 5.4 5.8 5.8l1.1-1.2-1.7-1-.8.6c-.8-.4-1.5-1.1-1.9-1.9l.6-.8-1-1.7z"/></svg>Enviar pedido de reserva</button>
+      <p class="dica">Você será levado ao WhatsApp com a mensagem pronta.</p>
+    </form>
+  </div>
+</section>
+
+<section class="s" id="galeria">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Galeria</p><h2>Conheça a <em>casa</em></h2><p>Pratos, drinks e ambiente. Toque em uma foto para ampliar.</p></div>
+    <div class="gal" id="gal">
+      <button type="button"><img src="img/g1.webp" width="1000" height="1000" alt="Prancha com carne e acompanhamentos" loading="lazy"></button>
+      <button type="button"><img src="img/g2.webp" width="1000" height="1000" alt="Corte grelhado na tábua" loading="lazy"></button>
+      <button type="button"><img src="img/g3.webp" width="1000" height="1000" alt="Linguiça e cortes na brasa" loading="lazy"></button>
+      <button type="button"><img src="img/g4.webp" width="1000" height="1000" alt="Costelas na tábua de madeira" loading="lazy"></button>
+      <button type="button"><img src="img/g5.webp" width="1000" height="1000" alt="Espetinho de queijo coalho" loading="lazy"></button>
+      <button type="button"><img src="img/g6.webp" width="1000" height="1000" alt="Carne com acompanhamentos" loading="lazy"></button>
+      <button type="button"><img src="img/g7.webp" width="1000" height="1000" alt="Canecas de cobre com drink" loading="lazy"></button>
+      <button type="button"><img src="img/g8.webp" width="1000" height="1000" alt="Drink laranja" loading="lazy"></button>
+      <button type="button"><img src="img/g9.webp" width="1000" height="1000" alt="Petit gateau com sorvete" loading="lazy"></button>
+      <button type="button"><img src="img/g10.webp" width="1000" height="1000" alt="Linguiça artesanal" loading="lazy"></button>
+      <button type="button"><img src="img/g11.webp" width="1000" height="1000" alt="Cortes na bandeja" loading="lazy"></button>
+      <button type="button"><img src="img/g12.webp" width="1000" height="1000" alt="Cortes grelhados" loading="lazy"></button>
+      <button type="button"><img src="img/g13.webp" width="1000" height="1000" alt="Tábua de frios" loading="lazy"></button>
+      <button type="button"><img src="img/g14.webp" width="1000" height="1000" alt="Vista noturna do MG Steak House" loading="lazy"></button>
+    </div>
+  </div>
+</section>
+
+<section class="s ig" id="instagram">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Instagram</p><h2>Acompanhe a <em>programação</em></h2><p>Música ao vivo, promoções e novidades do MG Steak House.</p></div>
+    <div class="reels">
+      <a class="reel" href="https://www.instagram.com/mgsteakhousepbs/reel/DecU5BcHzZt/" target="_blank" rel="noopener"><img src="img/r1.webp" width="640" height="1136" alt="Vídeo: Boa música, drinks gelados e a noite perfeita" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span><span class="cap">Boa música, drinks gelados e a noite perfeita</span></a>
+      <a class="reel" href="https://www.instagram.com/mgsteakhousepbs/reel/DeSGnkZDQHl/" target="_blank" rel="noopener"><img src="img/r2.webp" width="640" height="1136" alt="Vídeo: Uma noite no MG Steak" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span><span class="cap">Uma noite no MG Steak</span></a>
+      <a class="reel" href="https://www.instagram.com/mgsteakhousepbs/reel/DbtTyEojoOR/" target="_blank" rel="noopener"><img src="img/r3.webp" width="640" height="1136" alt="Vídeo: Seu próximo brinde começa aqui" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span><span class="cap">Seu próximo brinde começa aqui</span></a>
+      <a class="reel" href="https://www.instagram.com/mgsteakhousepbs/reel/Dbnp6Eqk1oF/" target="_blank" rel="noopener"><img src="img/r4.webp" width="640" height="1136" alt="Vídeo: Comemore seu aniversário aqui" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span><span class="cap">Comemore seu aniversário aqui</span></a>
+      <a class="reel" href="https://www.instagram.com/mgsteakhousepbs/reel/DZpYn3XkUpf/" target="_blank" rel="noopener"><img src="img/r5.webp" width="640" height="1136" alt="Vídeo: Dia dos Namorados no MG" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span><span class="cap">Dia dos Namorados no MG</span></a>
+      <a class="reel" href="https://www.instagram.com/mgsteakhousepbs/reel/DbwBlCPi3RY/" target="_blank" rel="noopener"><img src="img/r6.webp" width="640" height="1136" alt="Vídeo: MG Pizza e MG Steak House" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span><span class="cap">MG Pizza e MG Steak House</span></a>
+    </div>
+    <a class="seguir" href="https://www.instagram.com/mgsteakhousepbs" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8"/></svg>Seguir @mgsteakhousepbs</a>
+  </div>
+</section>
+
+<section class="s" id="avaliacoes">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Avaliações</p><h2>Quem veio, <em>aprovou</em></h2></div>
+    <div class="av">
+      <div class="goo rv"><div class="n">4,6</div><div class="st" aria-hidden="true">★★★★★</div><p>1.071 avaliações no Google</p>
+        <a class="btn" href="https://maps.google.com/?cid=17199633880018765820" target="_blank" rel="noopener"><svg viewBox="0 0 48 48" aria-hidden="true" style="fill:none"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>Ver e avaliar no Google</a></div>
+      <div class="deps">
+        <q class="rv">Ambiente muito bonito, com mesas na área climatizada ou externa. Os cortes são escolhidos por nós, no freezer, com os valores etiquetados.<small>Rodrigo V., avaliação no Google</small></q>
+        <q class="rv d1">Lugar aconchegante e atendimento excelente, sem falar na comida que é uma delícia.<small>Adrielle C., avaliação no Google</small></q>
+        <q class="rv d2">Atendimento sempre bacana, ambiente excelente.<small>Leonardo C., avaliação no Google</small></q>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="contato" style="padding-top:10px">
+  <div class="w">
+    <div class="cab rv"><p class="eyebrow">Contato</p><h2>Venha nos <em>visitar</em></h2></div>
+    <div class="ct">
+      <div class="info rv">
+        <h3>MG Steak House</h3>
+        <p><b>Endereço</b><br>Av. Carajás, 388, Nova Carajás<br>Parauapebas/PA, CEP 68515-000</p>
+        <p style="margin-top:14px"><b>Funcionamento</b><br>Todos os dias<br>Segunda a sexta, a partir das 18h<br>Sábado e domingo, a partir das 12h</p>
+        <p style="margin-top:14px"><b>WhatsApp e reservas</b><br>(94) 99139-2689</p>
+        <p style="margin-top:14px"><b>Instagram</b><br>@mgsteakhousepbs</p>
+        <div class="acoes">
+          <a class="btn btn-or" data-wa="Olá! Vim pelo site do MG Steak House e quero reservar uma mesa." href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Chamar no WhatsApp</a>
+          <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=MG+Steak+House+Av.+Caraj%C3%A1s+388+Parauapebas" target="_blank" rel="noopener">Como chegar</a>
+        </div>
+      </div>
+      <div class="mapa rv d1"><iframe title="Mapa do MG Steak House" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=MG+Steak+House+Av.+Carajás+388+Parauapebas+PA&amp;output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+
+<section class="s" style="padding-top:10px">
+  <div class="w">
+    <a class="parc rv" href="https://biovenda.app.br/mgpizzapbs" target="_blank" rel="noopener">
+      <img src="img/parceiro.webp" width="152" height="152" alt="Logo da MG Pizza" loading="lazy">
+      <div><em>Casa parceira</em><b>MG Pizza</b><small>Rodízio às terças, pizzas, massas, risotos e espaço kids.</small></div>
+    </a>
+  </div>
+</section>
+
+<section class="final">
+  <div class="w rv">
+    <p class="eyebrow">Reserva</p>
+    <h2>Sua noite no MG <em>começa aqui</em></h2>
+    <p>Reserve sua mesa e venha viver a experiência da primeira casa de carnes de Parauapebas.</p>
+    <div class="acoes"><a class="btn btn-or" href="#reserva"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/></svg>Reservar minha mesa</a></div>
+  </div>
+</section>
+</main>
+
+<div class="site-igual"><div class="w"><a href="https://wa.me/5534993421500?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20MG%20Steak%20House%20e%20quero%20um%20site%20igual%20pra%20minha%20empresa." target="_blank" rel="noopener"><span>Quero um site igual a esse<br><small style="font-weight:500;color:var(--mut)">feito pela <span class="zb">Zebubit</span></small></span></a></div></div>
+<footer class="rodape"><div class="w"><span>© MG Steak House · Parauapebas, PA</span><a href="https://zebubit.com.br" target="_blank" rel="noopener">Desenvolvido por <span class="zb">Zebubit Assessoria</span></a></div></footer>
+<p class="demo">Versão de demonstração preparada pela Zebubit.</p>
+
+<a class="zap" href="#reserva" aria-label="Reservar mesa"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M8.8 8.6c.3 3.1 2.6 5.4 5.8 5.8l1.1-1.2-1.7-1-.8.6c-.8-.4-1.5-1.1-1.9-1.9l.6-.8-1-1.7z"/></svg></a>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+  <button type="button" class="x" id="lbx" aria-label="Fechar">×</button>
+  <button type="button" class="pv" id="lbp" aria-label="Foto anterior">‹</button>
+  <img id="lbi" alt="">
+  <button type="button" class="nx" id="lbn" aria-label="Próxima foto">›</button>
+  <div class="c" id="lbc"></div>
+</div>
+
+<script>
+(function(){
+  var WHATS='5594991392689';
+  document.querySelectorAll('[data-wa]').forEach(function(a){
+    a.href='https://wa.me/'+WHATS+'?text='+encodeURIComponent(a.getAttribute('data-wa'));
+    a.target='_blank'; a.rel='noopener';
+  });
+  var topo=document.getElementById('topo'), prog=document.getElementById('prog'), bg=document.getElementById('herobg');
+  var par=window.matchMedia('(min-width:1024px) and (pointer:fine)').matches && !window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  var tick=false;
+  function onScroll(){
+    var y=window.scrollY, h=document.documentElement.scrollHeight-innerHeight;
+    topo.classList.toggle('on',y>30);
+    prog.style.transform='scaleX('+(h>0?y/h:0)+')';
+    if(par&&y<innerHeight*1.2) bg.style.transform='translateY('+(y*0.22)+'px)';
+    tick=false;
+  }
+  window.addEventListener('scroll',function(){ if(!tick){ tick=true; requestAnimationFrame(onScroll); } },{passive:true}); onScroll();
+  var burger=document.getElementById('burger'), menu=document.getElementById('menu');
+  burger.addEventListener('click',function(){ var on=menu.classList.toggle('on'); burger.setAttribute('aria-expanded',on); document.body.style.overflow=on?'hidden':''; });
+  menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('on'); burger.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }); });
+  // reveal
+  var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); if(e.target.querySelector&&e.target.querySelector('[data-n]')) cont(e.target.querySelector('[data-n]')); } }); },{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+  // contadores
+  function cont(el){
+    if(el.dataset.done) return; el.dataset.done=1;
+    var alvo=parseFloat(el.dataset.n.replace(',','.')), dec=el.dataset.n.indexOf(',')>-1, suf=el.dataset.suf||'', t0=null;
+    function f(t){ if(!t0) t0=t; var p=Math.min((t-t0)/1100,1), v=alvo*(1-Math.pow(1-p,3)); var s=dec?v.toFixed(1).replace('.',','):Math.round(v).toLocaleString('pt-BR'); el.textContent=s+suf; if(p<1) requestAnimationFrame(f); }
+    requestAnimationFrame(f);
+  }
+  if(window.matchMedia('(prefers-reduced-motion:reduce)').matches) document.querySelectorAll('[data-n]').forEach(function(e){ e.textContent=e.dataset.n+(e.dataset.suf||''); });
+  // lightbox
+  var lb=document.getElementById('lb'), li=document.getElementById('lbi'), lc=document.getElementById('lbc');
+  var lista=[], cur=0, ult=null;
+  function mostra(i){ cur=(i+lista.length)%lista.length; var im=lista[cur].querySelector('img'); li.src=im.src; li.alt=im.alt; lc.textContent=(cur+1)+' de '+lista.length; }
+  function abre(g,i){ lista=g; ult=document.activeElement; lb.classList.add('on'); document.body.style.overflow='hidden'; mostra(i); document.getElementById('lbx').focus(); }
+  function fecha(){ lb.classList.remove('on'); document.body.style.overflow=''; if(ult) ult.focus(); }
+  ['gal','menu'].forEach(function(id){ var el=document.getElementById(id); if(!el) return; var g=[].slice.call(el.querySelectorAll('button')); g.forEach(function(b,i){ b.addEventListener('click',function(){ abre(g,i); }); }); });
+  document.getElementById('lbx').addEventListener('click',fecha);
+  document.getElementById('lbp').addEventListener('click',function(){ mostra(cur-1); });
+  document.getElementById('lbn').addEventListener('click',function(){ mostra(cur+1); });
+  lb.addEventListener('click',function(e){ if(e.target===lb) fecha(); });
+  document.addEventListener('keydown',function(e){ if(!lb.classList.contains('on')) return; if(e.key==='Escape') fecha(); if(e.key==='ArrowLeft') mostra(cur-1); if(e.key==='ArrowRight') mostra(cur+1); });
+  var x0=null;
+  lb.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; },{passive:true});
+  lb.addEventListener('touchend',function(e){ if(x0===null) return; var d=e.changedTouches[0].clientX-x0; if(Math.abs(d)>50) mostra(cur+(d<0?1:-1)); x0=null; });
+  // reserva
+  var fr=document.getElementById('fres'), di=document.getElementById('rd'), hj=new Date();
+  di.min=hj.getFullYear()+'-'+('0'+(hj.getMonth()+1)).slice(-2)+'-'+('0'+hj.getDate()).slice(-2);
+  fr.addEventListener('submit',function(e){
+    e.preventDefault();
+    var d=di.value.split('-').reverse().join('/');
+    var m='Olá! Vim pelo site do MG Steak House e quero reservar uma mesa.\n\nNome: '+document.getElementById('rn').value+'\nData: '+d+'\nHorário: '+document.getElementById('rh').value+'\nPessoas: '+document.getElementById('rp').value;
+    var o=document.getElementById('ro').value.trim(); if(o) m+='\nObservação: '+o;
+    window.open('https://wa.me/'+WHATS+'?text='+encodeURIComponent(m),'_blank','noopener');
+  });
+})();
+</script>
+</body>
+</html>
